@@ -29,7 +29,7 @@
     <section>
       <h3>Experience</h3>
       <div class="job">
-        <h4>Full Time Faculty member-Microcity College of Business and Technology.Inc</h4>
+        <h4>Faculty member-Microcity College of Business and Technology.Inc</h4>
         <p>2025-present</p>
         <p>Instructor for Computer Engineering Subjects</p>
       </div>
