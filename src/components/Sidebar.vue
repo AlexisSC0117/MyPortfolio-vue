@@ -1,6 +1,6 @@
 <template>
   <aside class="card">
-    <img class="avatar" src="/profile.jpg" />
+    <img class="avatar" src="/test-vue/profile.jpg" />
 
     <h2>Ron Alexis Violenta Dela Cruz</h2>
     <h3>Bachelor's Degree - Computer Engineering</h3>
@@ -11,13 +11,9 @@
       <p>💼 Applying for Junior Developer Position</p>
     </div>
 
-    <a href="/RADC.pdf" download target="_blank">
+    <a href="/test-vue/RADC.pdf" download target="_blank">
       <button class="btn">Download CV</button>
     </a>
-
-
-
-
   </aside>
 </template>
 
