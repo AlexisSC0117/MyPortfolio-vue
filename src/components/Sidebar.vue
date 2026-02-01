@@ -33,6 +33,11 @@
       <button class="btn facebook">Contact on Facebook</button>
     </a>
 
+    <!-- MY PROJECTS -->
+    <a href="https://drive.google.com/drive/folders/1-DGVMCG0YQQLtXkl1NR23pYq7kc8NP9i?usp=drive_link" target="_blank">
+      <button class="btn projects">My Projects</button>
+    </a>
+
   </aside>
 </template>
 
@@ -84,6 +89,11 @@
 /* Facebook button */
 .facebook {
   background: linear-gradient(135deg, #1877f2, #60a5fa);
+}
+
+/* Projects button */
+.projects {
+  background: linear-gradient(135deg, #f59e0b, #fbbf24);
 }
 
 /* Email & Facebook links style */
