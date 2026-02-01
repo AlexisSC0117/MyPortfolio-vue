@@ -46,13 +46,11 @@
 
 <script setup>
 const skills = [
+  "HTML",
+  "CSS",
   "Vue",
-  "React",
-  "JavaScript",
+  "Chatgpt",
   "Node.js",
-  "Tailwind",
-  "Figma",
-  "MongoDB",
   "Git"
 ]
 </script>

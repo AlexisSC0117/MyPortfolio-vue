@@ -24,14 +24,22 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; /* FIX: allow vertical scroll */
+  padding: 20px 0;
 }
 
 .container {
   display: grid;
   grid-template-columns: 300px 1fr;
   gap: 24px;
-  width: 95%;
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1100px;
+}
+
+/* MOBILE PORTRAIT MODE */
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr; /* stack vertically */
+  }
 }
 </style>
