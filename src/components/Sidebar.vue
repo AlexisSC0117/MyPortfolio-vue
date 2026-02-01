@@ -34,7 +34,7 @@
     </a>
 
     <!-- MY PROJECTS -->
-    <a href="https://drive.google.com/drive/folders/1-DGVMCG0YQQLtXkl1NR23pYq7kc8NP9i?usp=drive_link" target="_blank">
+    <a href="https://drive.google.com/drive/folders/1WFNfyhnoVW_sfrZXGP9M9xydMGQ5TNzx?usp=drive_link" target="_blank">
       <button class="btn projects">My Projects</button>
     </a>
 
