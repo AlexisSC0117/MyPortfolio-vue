@@ -7,16 +7,34 @@
 
     <div class="info">
       <p>📍 Orani, Bataan</p>
-      <p>📧 Ronalexisdelacruz2003@gmail.com</p>
+
+      <p>
+        📧 
+        <a href="mailto:Ronalexisdelacruz2003@gmail.com">
+          Ronalexisdelacruz2003@gmail.com
+        </a>
+      </p>
+
       <p>💼 Applying for Junior Developer Position</p>
     </div>
 
-    <a href="/RADC.pdf" download class="btn">Download CV
+    <!-- DOWNLOAD CV -->
+    <a href="/RADC.pdf" download target="_blank">
+      <button class="btn">Download CV</button>
+    </a>
+
+    <!-- SEND EMAIL -->
+    <a href="mailto:Ronalexisdelacruz2003@gmail.com">
+      <button class="btn email">Send Email</button>
+    </a>
+
+    <!-- FACEBOOK CONTACT -->
+    <a href="https://www.facebook.com/Ronalexis.03" target="_blank">
+      <button class="btn facebook">Contact on Facebook</button>
     </a>
 
   </aside>
 </template>
-
 
 <style scoped>
 .card {
@@ -35,23 +53,47 @@
   margin-bottom: 12px;
 }
 
-.role {
-  color: #94a3b8;
-  margin-bottom: 12px;
-}
-
 .info p {
   font-size: 14px;
   color: #cbd5f5;
 }
 
 .btn {
-  margin-top: 16px;
+  display: block;
+  width: 100%;
+  margin-top: 12px;
   padding: 10px 14px;
   background: linear-gradient(135deg, #6366f1, #22d3ee);
   border: none;
   color: white;
   border-radius: 10px;
   cursor: pointer;
+  transition: transform 0.1s ease, opacity 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+
+/* Email button */
+.email {
+  background: linear-gradient(135deg, #22c55e, #4ade80);
+}
+
+/* Facebook button */
+.facebook {
+  background: linear-gradient(135deg, #1877f2, #60a5fa);
+}
+
+/* Email & Facebook links style */
+.info a {
+  color: #60a5fa;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.info a:hover {
+  text-decoration: underline;
 }
 </style>
