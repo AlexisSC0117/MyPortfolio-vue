@@ -3,14 +3,15 @@
     <img class="avatar" src="/profile.jpg" />
 
     <h2>Ron Alexis Violenta Dela Cruz</h2>
+    <h3>Bachelor's Degree - Computer Engineering</h3>
 
     <div class="info">
-      <p>📍 Philippines</p>
-      <p>📧 email@example.com</p>
-      <p>💼 Available for work</p>
+      <p>📍 Orani, Bataan</p>
+      <p>📧 Ronalexisdelacruz2003@gmail.com</p>
+      <p>💼 Applying for Junior Developer Position</p>
     </div>
 
-    <button class="btn">Download CV</button>
+    <a href="/RADC.pdf" download class="btn">Download CV</a>
   </aside>
 </template>
 

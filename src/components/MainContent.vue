@@ -3,26 +3,35 @@
     <section>
       <h3>Objective</h3>
       <p>
-        Passionate software developer seeking to build modern, scalable, and
-        high-performance applications.
+        A motivated and detail-oriented individual seeking an opportunity to apply programming, problem-solving, and software development skills to create efficient and high-quality applications while continuously learning and growing in a collaborative environment.
       </p>
     </section>
 
+
+
     <section>
-      <h3>Career Summary</h3>
+      <h3>Character Summary</h3>
+      <p>
+        A Dedicated Bachelor’s degree holder with Certificates, possessing basic programming skills and a strong desire to grow in the tech industry. Eager to learn new technologies, support development tasks, and contribute positively to organizational goals.
+      </p>
+
+      <h3>Certifications</h3>
       <ul>
-        <li>5+ years in Web Development</li>
-        <li>Vue, React, Node, Laravel experience</li>
-        <li>Strong UI/UX and performance optimization</li>
+        <li>Visual Graphics & Design NCIII</li>
+        <li>Computer Systems Servicing NCII</li>
+        <li>Instrumentation & Control Servicing NCII</li>
+        <li>Instrumentation & Control Servicing NCIII</li>
+        <li>Electronic Products Assembly and Servicing NCII</li>
+        <li>Consumer Electronics Servicing NCIII</li>
       </ul>
     </section>
 
     <section>
       <h3>Experience</h3>
       <div class="job">
-        <h4>Frontend Developer — Company</h4>
-        <p>2022 – Present</p>
-        <p>Built responsive Vue apps and optimized UX.</p>
+        <h4>Full Time Faculty member-Microcity College of Business and Technology.Inc</h4>
+        <p>2025-present</p>
+        <p>Instructor for Computer Engineering Subjects</p>
       </div>
     </section>
 
