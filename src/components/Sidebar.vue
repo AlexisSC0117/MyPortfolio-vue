@@ -11,9 +11,9 @@
       <p>💼 Applying for Junior Developer Position</p>
     </div>
 
-    <a href="/RADC.pdf" download target="_blank">
-      <button class="btn">Download CV</button>
+    <a href="/RADC.pdf" download class="btn">Download CV
     </a>
+
   </aside>
 </template>
 
