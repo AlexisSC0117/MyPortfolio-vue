@@ -24,7 +24,7 @@
     </a>
 
     <!-- SEND EMAIL -->
-    <a href="mailto:Ronalexisdelacruz2003@gmail.com">
+    <a href="https://mail.google.com/mail/?view=cm&to=Ronalexisdelacruz2003@gmail.com" target="_blank">
       <button class="btn email">Send Email</button>
     </a>
 
