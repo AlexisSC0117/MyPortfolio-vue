@@ -7,8 +7,6 @@
       </p>
     </section>
 
-
-
     <section>
       <h3>Character Summary</h3>
       <p>
@@ -29,29 +27,55 @@
     <section>
       <h3>Experience</h3>
       <div class="job">
-        <h4>Faculty member-Microcity College of Business and Technology.Inc</h4>
-        <p>2025-present</p>
+        <h4>Faculty Member — Microcity College of Business and Technology Inc.</h4>
+        <p>2025–Present</p>
         <p>Instructor for Computer Engineering Subjects</p>
       </div>
     </section>
 
     <section>
       <h3>Skills & Tools</h3>
-      <div class="skills">
-        <span v-for="skill in skills" :key="skill">{{ skill }}</span>
+
+      <div v-for="group in skillGroups" :key="group.title" class="skill-group">
+        <h4>{{ group.title }}</h4>
+
+        <div class="skills">
+          <span v-for="skill in group.skills" :key="skill">
+            {{ skill }}
+          </span>
+        </div>
       </div>
     </section>
   </main>
 </template>
 
 <script setup>
-const skills = [
-  "HTML",
-  "CSS",
-  "Vue",
-  "Chatgpt",
-  "Node.js",
-  "Git"
+const skillGroups = [
+  {
+    title: "Website Development",
+    skills: [
+      "HTML & CSS",
+      "C Language",
+      "SQL",
+      "Vue.js"
+    ]
+  },
+  {
+    title: "Graphic Media & 3D Design",
+    skills: [
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "AutoCAD",
+      "SketchUp"
+    ]
+  },
+  {
+    title: "AI Integration",
+    skills: [
+      "ChatGPT",
+      "Grok"
+    ]
+  }
 ]
 </script>
 
@@ -71,6 +95,16 @@ h3 {
   color: #38bdf8;
 }
 
+.skill-group {
+  margin-top: 14px;
+}
+
+.skill-group h4 {
+  margin-bottom: 8px;
+  color: #7dd3fc;
+  font-size: 15px;
+}
+
 .job {
   padding: 14px;
   background: #020617;
@@ -80,7 +114,7 @@ h3 {
 
 .skills {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   gap: 10px;
 }
 
@@ -89,5 +123,6 @@ h3 {
   padding: 10px;
   border-radius: 10px;
   text-align: center;
+  font-size: 14px;
 }
 </style>

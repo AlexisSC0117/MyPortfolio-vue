@@ -19,7 +19,7 @@
     </div>
 
     <!-- DOWNLOAD CV -->
-    <a href="/RADC.pdf" download target="_blank">
+    <a href="/test-vue/RADC.pdf" target="_blank">
       <button class="btn">Download CV</button>
     </a>
 
